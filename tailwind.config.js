@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'ranch-brown': '#8B4513',
+        'ranch-brown': '#228B22',
         'ranch-gold': '#DAA520',
         'ranch-cream': '#F5F5DC',
         'cosmic-dark': '#11171A',
