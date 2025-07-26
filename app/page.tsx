@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import CategoryGrid from '@/components/CategoryGrid'
 import ProductGrid from '@/components/ProductGrid'
+import ContactForm from '@/components/ContactForm'
 import LoadingSpinner from '@/components/LoadingSpinner'
 
 export default async function HomePage() {
@@ -63,6 +64,9 @@ export default async function HomePage() {
             </div>
           </section>
         )}
+
+        {/* Contact Form Section */}
+        <ContactForm />
       </main>
 
       <Footer />
